@@ -59,4 +59,4 @@ Public policy should shift focus from credit *sanctioning targets* to credit *di
 * **Scale Southern SHG Linkage Models in Northern States:** Expand SHG-bank linkage programs across northern districts to bridge information asymmetry, improve financial literacy, and accelerate loan disbursement.
 * **Modernize Primary Agricultural Credit Societies (PACS):** Modernize and digitize PACS in key agricultural hubs (such as Punjab and Haryana) to streamline the delivery of short-term crop credit and reduce grassroots disbursement friction.
 * **Direct Credit Toward Post-Harvest & Processing Infrastructure:** Sanction credit lines for cold chains, storage, and agro-processing units. This reduces the post-harvest idle period for credit and helps diversify rural household income streams.
-*
+
