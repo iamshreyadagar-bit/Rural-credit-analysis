@@ -35,18 +35,16 @@ A district can appear credit-served on paper while still facing real-world barri
   * Intra-state relative performance rankings using window functions (`RANK() OVER (PARTITION BY State ORDER BY Utilization_Ratio DESC)`).
   * Priority-flag filtering logic for high-sanctioned, low-utilization districts.
 
-### 2. Power BI Dashboard (`rural credit analysis.pbix`)
+### 2. Power BI Dashboard (`rural_credit_analysis.pbix`)
 * **State-Level Comparisons:** Bar charts comparing mean utilization ratios across states.
 * **Choropleth Mapping:** Geospatial visualization of regional credit absorption patterns.
 * **Policy Priority Matrix:** Interactive table isolating districts with high credit limits but low drawdowns.
 * **Longitudinal Trends:** Deposit mobilization patterns across the 2009–2018 financial inclusion period.
-  
-![Credit utilization by state](<img width="1102" height="621" alt="credit dashbord" src="https://github.com/user-attachments/assets/87c0eb3b-3cfe-495c-84e0-d2eff72a1183" />
-)
+
+![Credit utilization by state](images/credit_dashboard.png)
 *State-level utilization ratios, district drilldown table, and geographic distribution across India.*
 
-![Deposit growth trends](<img width="782" height="613" alt="debit dashbord" src="https://github.com/user-attachments/assets/96e34771-b8aa-41d6-8b20-2a7d494d825f" />
-)
+![Deposit growth trends](images/deposits_dashboard.png)
 *Total vs. rural deposit growth, 2009-10 to 2017-18, showing steady financial inclusion gains.*
 
 ---
@@ -68,3 +66,13 @@ Public policy should shift focus from credit *sanctioning targets* to credit *di
 * **Modernize Primary Agricultural Credit Societies (PACS):** Modernize and digitize PACS in key agricultural hubs (such as Punjab and Haryana) to streamline the delivery of short-term crop credit and reduce grassroots disbursement friction.
 * **Direct Credit Toward Post-Harvest & Processing Infrastructure:** Sanction credit lines for cold chains, storage, and agro-processing units. This reduces the post-harvest idle period for credit and helps diversify rural household income streams.
 
+---
+
+## ⚙️ Tools & Reproduce
+
+**Tools used:** SQL Server (T-SQL), Power BI Desktop
+
+**To reproduce:**
+1. Import the two CSVs from `/data` as tables named `CreditData` and `DepositsData` in your SQL environment.
+2. Run `credit_analysis_queries.sql` against them to generate the analytical views.
+3. Open `rural_credit_analysis.pbix` in Power BI Desktop and refresh the data connections to point to your local tables.
