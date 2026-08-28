@@ -41,10 +41,10 @@ A district can appear credit-served on paper while still facing real-world barri
 * **Policy Priority Matrix:** Interactive table isolating districts with high credit limits but low drawdowns.
 * **Longitudinal Trends:** Deposit mobilization patterns across the 2009–2018 financial inclusion period.
   
-![Credit utilization by state](images/credit_dashboard.png)
+![Credit utilization by state](credit dashbord.png)
 *State-level utilization ratios, district drilldown table, and geographic distribution across India.*
 
-![Deposit growth trends](images/deposits_dashboard.png)
+![Deposit growth trends](debit dashbord.png)
 *Total vs. rural deposit growth, 2009-10 to 2017-18, showing steady financial inclusion gains.*
 
 ---
