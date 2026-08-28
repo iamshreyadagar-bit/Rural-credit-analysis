@@ -44,7 +44,7 @@ A district can appear credit-served on paper while still facing real-world barri
 ![Credit utilization by state](images/credit_dashboard.png)
 *State-level utilization ratios, district drilldown table, and geographic distribution across India.*
 
-![Deposit growth trends](images/deposits_dashboard.png)
+![Deposit growth trends](debit dashbord.png)
 *Total vs. rural deposit growth, 2009-10 to 2017-18, showing steady financial inclusion gains.*
 
 ---
